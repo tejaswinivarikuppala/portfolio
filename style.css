@@ -1,0 +1,104 @@
+body{
+    background:#f9f9f9;font-family: Arial, Helvetica, sans-serif;
+    color: #333;margin: 0;
+}
+header{
+    background-color: #2c3e50;color:white;
+    padding: 15px;display: flex;justify-content: space-between;
+    align-items: center;
+}
+nav a{
+    color: white;text-decoration: none;
+    font-weight: bold;margin: 0 10px;
+}
+.hero{
+    background: url("https://picsum.photos/1200/400?travel")center/cover no-repeat;
+    color: white;padding: 60px 25px;text-align: center;
+}
+.container{
+    display:flex;gap:20px;padding: 30px;
+    flex-wrap: wrap;justify-content:space-around ;
+}
+.cards{
+    flex:1;border-radius: 10px;background-color: white;
+    box-shadow: 0 5px 11px black;padding: 20px;
+    min-width: 250px;transition:all 0.5s ease;
+}
+.cards:hover{
+    transform:translateY(15px) ;
+}
+.feedback{  
+    display:flex;gap:20px;padding:30px;
+    flex-wrap: wrap;justify-content: space-around;
+    border-radius: 10px;background-color: white;
+    flex: 1;box-shadow: 0 5px 13px black;min-width: 250px;
+    transition: all 0.5s ease;
+}
+.unique{
+    flex:1;border-radius: 10px;background-color: white;
+    box-shadow: 0 5px 11px black;padding:20px;
+     min-width:250px;transition: all 0.5s ease;
+}
+.unique:hover{
+    transform:translateY(15px);
+}
+.contact{
+    background:#f39c12;color:white;
+    padding:40px 20px;text-align: center;
+}
+.contact button{
+    background-color: #2c3e50;text-align: center;
+    padding: 12px 20px;font-weight: bolder;
+    font-size: 25px;border-radius: 10px;
+}
+footer{
+    background-color: #2c3e50;text-align: center;
+    color: white;padding: 20px;margin-top: 20px;
+}
+.gallery{
+    display: grid;
+    grid-template-columns:1fr 1fr;
+}
+figure{
+   max-width:400px;
+}
+figure img{
+    border-radius:20px;
+}
+figcaption{
+    text-align: center;font-weight: bolder;
+}
+p button{
+    text-align: center;font-size: 25px;
+}
+button:hover{
+    background-color: cadetblue;color: white;
+}
+.grid{
+    display:grid;grid-template-columns:1fr 2fr;
+    gap:20px;padding:20px;min-height:70vh;
+}
+.sidework{
+    background-color: #ecf0f1;border-radius: 10px;
+    box-shadow: 0 5px 13px black;padding: 20px;
+}
+.sidework h2{
+    text-align: center;
+}
+.booking{
+    display:grid;place-items: center;
+    background-color: #ecf0f1;
+    box-shadow: 0 5px 13px black;border-radius: 10px;
+}
+.booking-form{
+    display:grid;gap:20px;width:90%;
+}
+.booking-form input,.booking-form textarea{
+       border-radius: 10px;padding: 15px;
+       border:1px solid #ccc;margin: 10px;
+}
+.booking-form button{
+    background-color: #2c3e50;color:white;
+    padding:15px;border-radius: 10px;font-weight: bold;
+    font-size: 20px;margin-bottom: 20px;
+}

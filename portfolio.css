@@ -1,0 +1,86 @@
+body{
+    background-color: #e7fafc;
+}
+h1{
+    text-align: center;font-size: 40px;transition: all 0.5 ease;
+}
+h1 :hover{
+    text-decoration: underline;
+    transform: scale(1.5);
+}
+p{
+    text-align: center;font-size: 25px;
+}
+nav{
+    text-align: center;
+}
+nav a{
+    padding:5px;font-weight: bold;
+    border-radius:1px solid;padding:5px;font-size: bold;
+    margin-left: 20px ;color:blueviolet;
+}
+nav a:hover{
+      background-color: aquamarine;color:white;
+}
+section{
+    background-color: white;width:800px;
+    margin:30px auto;border-radius: 10px;
+    padding: 10px; box-shadow:0 5px 13px black;
+}
+hr{
+    margin:30px auto;width:800px;
+}
+figure{
+    text-align: center;
+}
+figure img{
+    border-radius: 50%;border:3px solid blue;
+}
+fig-image :hover{
+    box-shadow: 0 5px 13px black;
+}
+figcaption{
+    font-size: 25px;
+}
+section ul{
+     text-align: center;
+}
+section h2{
+    border-bottom: 2px solid blue;
+    padding-bottom: 10px;
+}
+article{
+    background-color: #e7fafc;padding: 20px;margin:20px;border-left: 4px solid blue;
+    border-radius: 10px;transition: all 0.5s ease;
+}
+h3{
+    font-size: 35px;}
+summary{
+    font-size: 30px;
+}
+li{
+   background-color:#e7fafc;margin-bottom: 10px;
+   padding: 10px;font-size: 25px;text-align: left;
+}
+ul,ol{
+    list-style-type: none;
+}
+form{
+    text-align: center;
+}
+input,textarea{
+    width:100%;margin:2px;
+}
+button{
+    background-color:rgb(57,106,144);color:white;padding: 8px;
+    margin-left: 25px;border-radius: 7px;
+}
+button:hover{
+    background-color: rgb(57,106,144);
+}
+a{
+   text-decoration:none;
+}
+article:hover{
+    transform:translateY(10px) ;
+}
